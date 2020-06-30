@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #21212E;
+    color:#66667E;
+    
+}
+
+h1, h2, h3, h4{
+    color: #fff;
+}
+
+a {
+    color: #66667E;
+    text-decoration: none;
+}
+
+p{
+    margin: 0.5rem 0;
+    color: #66667E;
+}
+
+img{
+ width: 100%;
+}
+
+/* nav bar */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.nav img{
+    width: 200px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav ul li{
+    margin-right: 3rem;
+}
+
+/* showcase */
+
+.showcase-main{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.showcase-info{
+    max-width: 500px;
+    margin-top: 13rem;
+    z-index: 3;
+}
+
+.showcase-info  h1{
+    font-weight: lighter;
+}
+
+.showcase-info p{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 4rem;
+}
+
+.bg-phones{
+    height: 45rem;
+    width: 997px;
+    right: 20px;
+}
+
+.bg-logo{
+    width: 200px;
+    position: absolute;
+    left: 50rem;
+}
+
+/* Buttons */
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-white {
+    margin-top: 2rem;
+    border: #fff 2px solid;
+    padding: 1.5rem 2.9rem;
+    margin-left: 3rem;
+    color: #fff;
+}
+
+.btn-glow {
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1.5rem 4em;
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
+    
+}
+
+.btn-contact{
+    
+    border: #fff 2px solid;
+    padding: 0.6rem 2rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Partners */
+
+.partner-logo-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.logo-grid{
+    
+    background-color: #20202C;
+    box-shadow: 0 0 15px #000000;
+    border-radius: 7px;
+    
+    
+}
+
+.bg-logo-2{
+    width: 300px;
+    position: absolute;
+    top: 48rem;
+    left: 5rem;
+}
+
+.aws{
+    height: 135px;
+    width: 212px;
+    background: url(./img/aws.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.puma{
+    margin-left: -50px;
+    height: 108px;
+    width: 250px;
+    background: url(./img/puma.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.microsoft{
+    
+    width: 299px;
+    height: 86px;
+    background: url(./img/microsoft.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -2rem;
+    margin-right: 1rem;
+}
+
+.inkyy{
+    width: 305px;
+    height: 121px;
+    background: url(./img/inkyy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nike{
+    width: 273px;
+    height: 87px;
+    background: url(./img/nike.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 1rem;
+}
+
+.disney{
+    width: 258px;
+    height: 114px;
+    background: url(./img/disney.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -1rem;
+    margin-right: -2rem;
+}
+
+.converse{
+    width: 240px;
+    height: 134px;
+    background: url(./img/converse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+}
+
+.itunes{
+    width: 258px;
+    height: 100px;
+    background: url(./img/itunes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -1rem;
+    margin-left: -2rem;
+}
+
+.partner-right{
+    position: absolute;
+    max-width: 25%;
+    right: 18rem;
+    margin-top: 18rem;
+}
+
+.partner-right h2{
+    font-size: 36px;
+    font-family: 'Muli', sans-serif;
+}
+
+.partner-bottom-logo{
+    width: 492px;
+    height: 500px;
+    margin-left: 97rem;
+    margin-top: 28rem;
+    position: absolute;
+}
+
+.div{
+    margin-top: 50rem;
+}
+
+
+
+
